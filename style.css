@@ -1,0 +1,104 @@
+body {
+    background: #f3f6f9;
+    font-family: "Segoe UI", Arial, sans-serif;
+    color: #1f2937;
+}
+
+.bank-navbar {
+    background: #0f2742;
+    padding: 16px 0;
+}
+
+.navbar-brand {
+    color: #ffffff !important;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.main-container {
+    margin-top: 45px;
+}
+
+.login-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.login-card {
+    width: 100%;
+    max-width: 420px;
+    padding: 35px;
+    text-align: center;
+}
+
+.bank-card {
+    border: none;
+    border-radius: 14px;
+    background: #ffffff;
+    box-shadow: 0 8px 24px rgba(15, 39, 66, 0.12);
+}
+
+h3, h5 {
+    color: #0f2742;
+    font-weight: 700;
+}
+
+#balanceText {
+    color: #0f766e;
+    font-weight: 800;
+}
+
+.bank-primary {
+    background: #0f2742;
+    border-color: #0f2742;
+    color: #ffffff;
+}
+
+.bank-primary:hover {
+    background: #163b63;
+    color: #ffffff;
+}
+
+.bank-secondary {
+    background: #6b7280;
+    border-color: #6b7280;
+    color: #ffffff;
+}
+
+.bank-secondary:hover {
+    background: #4b5563;
+    color: #ffffff;
+}
+
+.atm-btn {
+    width: 100%;
+    min-height: 85px;
+    border: 1px solid #d8e0e8;
+    border-radius: 12px;
+    background: #ffffff;
+    color: #0f2742;
+    font-size: 15px;
+    font-weight: 700;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 4px 12px rgba(15, 39, 66, 0.08);
+}
+
+.atm-btn:hover {
+    background: #0f2742;
+    color: #ffffff;
+    transform: translateY(-3px);
+}
+
+.table thead {
+    background: #0f2742;
+    color: #ffffff;
+}
+
+.form-control {
+    border-radius: 8px;
+}
+
+.form-control:focus {
+    border-color: #0f2742;
+    box-shadow: 0 0 0 0.2rem rgba(15, 39, 66, 0.15);
+}
